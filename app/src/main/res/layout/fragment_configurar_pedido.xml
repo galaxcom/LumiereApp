@@ -1,0 +1,95 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mx.galaxcom.lumiereapp.activities.pedidos.ConfigurarPedidoFragment">
+
+    <TextView
+        android:id="@+id/txtAGregarNuevoPedido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/agregarNuevoPedido"
+        android:textSize="27dp"
+        android:textStyle="bold"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        />
+
+    <ExpandableListView
+        android:id="@+id/expLVClientes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtAGregarNuevoPedido"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="23dp">
+
+    </ExpandableListView>
+
+    <TextView
+        android:id="@+id/txtFecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fecha"
+        android:textSize="19dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="17dp"
+        android:layout_below="@id/expLVClientes"/>
+
+    <Button
+        android:id="@+id/btnSeleccionarFecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorAccent"
+        android:text="@string/seleccionarFecha"
+        android:layout_toEndOf="@id/txtFecha"
+        android:layout_below="@id/expLVClientes"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <Button
+        android:id="@+id/btnAgregarProductoPedido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/txtFecha"
+        android:backgroundTint="@color/colorAccent"
+        android:text="@string/AgregarProductoPedido"
+
+        />
+
+    <TextView
+        android:id="@+id/txtProductoAgregado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnAgregarProductoPedido"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="13dp"/>
+
+    <ImageView
+        android:id="@+id/imgProductoAgregado"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="10dp"
+        android:layout_toEndOf="@id/txtProductoAgregado"
+        android:layout_below="@id/btnAgregarProductoPedido"
+        />
+
+    <Button
+        android:id="@+id/btnConfirmarPedido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="@string/confirmarYEnviarPedido"
+        android:textStyle="bold"
+        android:textColor="@color/colorTextoBotones"
+        android:layout_alignParentBottom="true"
+        />
+</RelativeLayout>

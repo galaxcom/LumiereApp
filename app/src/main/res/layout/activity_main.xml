@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mx.galaxcom.lumiereapp.activities.MainActivity">
+
+    <ImageView
+        android:id="@+id/imgInventario"
+        android:layout_width="144dp"
+        android:layout_height="144dp"
+        android:src="@drawable/icons8_open_box_80"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:onClick="inventarioOnClick"/>
+
+    <TextView
+        android:id="@+id/txtInventario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgInventario"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="@string/inventario"
+        android:textStyle="bold"
+        android:textSize="27dp"/>
+
+    <ImageView
+        android:id="@+id/imgPedido"
+        android:layout_width="144dp"
+        android:layout_height="144dp"
+        android:src="@drawable/icons8_purchase_order_50"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/txtInventario"
+        android:onClick="pedidosOnclick"
+        />
+
+    <TextView
+        android:id="@+id/txtPedido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgPedido"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="@string/pedido"
+        android:textStyle="bold"
+        android:textSize="27dp"/>
+
+</RelativeLayout>

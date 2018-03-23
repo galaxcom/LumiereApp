@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">LumiereApp</string>
+    <string name="inventario">Inventario</string>
+    <string name="pedido">Pedidos</string>
+    <string name="tipoProducto">Producto</string>
+    <string name="agregar">Agregar</string>
+    <string name="productoLista">Producto</string>
+    <string name="cantidadProductoInventario">0</string>
+    <string name="agregarProducto">Actualizar Inventario</string>
+    <string name="hintAgregarProductoCantidad">Cantidad...</string>
+    <string name="agregarPedido">Agregar Pedido</string>
+    <string name="ultimosPedidos">Últimos 5 Pedidos</string>
+    <string name="title_activity_agregar_pedido">AgregarPedidoActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="agregarNuevoPedido">Agregar un nuevo pedido</string>
+    <string name="fecha">Fecha</string>
+    <string name="seleccionarFecha">Select</string>
+    <string name="AgregarProductoPedido">Agregar Producto</string>
+    <string name="confirmarYEnviarPedido">Confirmar y Enviar</string>
+    <string name="producto">Producto</string>
+    <string name="precioUnitarioEditText">Precio Unitario...</string>
+    <string name="btnContinuar">Continuar</string>
+    <string name="categoria">Categoria</string>
+    <string name="subcategoria">Subcategoría</string>
+    <string name="cantidad">Cantidad:</string>
+    <string name="precioUnitario">Precio Unitario:</string>
+    <string name="productosAgregadosPedido">Productos agregados al Pedido</string>
+</resources>
